@@ -9,7 +9,7 @@ import { studentmodel } from './student';
 export class StudentService {
 
   constructor(private http: HttpClient) { }
-  readonly apiUrl = 'https://localhost:7140/api/Student/';
+  readonly apiUrl = 'https://localhost:7140/api/Student';
 
   getStudentList() {
     return this.http.get<any[]>(this.apiUrl);
