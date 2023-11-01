@@ -1,0 +1,30 @@
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>S.Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Moblile</th>
+        <th>City</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let st of studentData,  index as i">
+        <th>{{i +1 }}</th>
+        <td>{{st.name}}</td>
+        <td>{{st.emailid}}</td>
+        <td>{{st.phoneNo}}</td>
+        <td>{{st.city}}</td>
+        <td>
+          <a [routerLink]="['/edit',st.id]" class="btn btn-primary">Edit</a> &nbsp; &nbsp;
+          <button type="button"  class="btn btn-danger" (click)="deleteStudent(st)">
+              Delete
+          </button>
+        </td>
+      </tr> 
+    </tbody>
+  </table>
+
+

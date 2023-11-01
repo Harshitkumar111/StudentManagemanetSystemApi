@@ -1,0 +1,25 @@
+.section-form{
+    padding: 10px;
+}
+h3{
+    margin-left: 5px;
+}
+.stdForm{
+    width: 40%;
+    margin: auto; 
+    border: 1px solid none; 
+    margin-top: 10px; 
+    border-radius: 5px;
+  
+}
+.btnsave{
+    height: 51px;
+    background: #d8d8e5;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}
+.btnsection{
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}

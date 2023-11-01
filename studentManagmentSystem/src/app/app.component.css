@@ -1,0 +1,25 @@
+.navbar-main{
+    display: flex; 
+    border: 1px solid black; 
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.mainContainer{
+    width: 80%; margin: auto;
+}
+.maintitle{
+    margin-top: 10px;
+    font-size: 19px;
+    margin-left: 10px;
+
+}
+.buttondiv{
+     margin-left: 55%;
+     margin-top: 8px;
+}
+.title{
+    width: 250px
+}
+
+
